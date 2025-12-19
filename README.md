@@ -5,7 +5,7 @@
 ## Introduction
 This project is a RESTful API for managing and querying a movie dataset, built using FastAPI and SQLite. The goal of the project was to gain hands-on experience with REST API design while also learning how to deploy a Python backend to Microsoft Azure App Service.<br>
 
-The API supports standard CRUD operations, including filtering and querying resources via URL parameters, and follows REST conventions such as resource-based routing and proper HTTP methods. The backend uses SQLite for simplicity and portability, making it easy to initialize and populate the database locally and in the cloud.
+The API supports standard CRUD operations, including filtering and querying resources via URL parameters, and follows REST conventions such as resource-based routing and proper HTTP methods. The backend uses SQLite for simplicity and portability, making it easy to initialize and populate the database.
 
 ## How To Set Up Project (Local)
 There is a `requirements.txt` file that contains all the dependencies needed to run this project. To create a virtual environment for this project, you can run the following code shown below:
@@ -272,4 +272,5 @@ Below is an example of a link to test this method when running the API locally.
 
 ```
 http://127.0.0.1:8000/movies/9827
+
 ```
