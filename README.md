@@ -63,7 +63,7 @@ First, we need to create the web app service.
     - Publish = Code
     - Runtime Stack = Python 3.11
     - Operating System = Linux
-4. Review and create the web app..
+4. Review and create the web app.
 
 Once the web app service is successfully deployed, we need to setup a few settings before manually deploying the ZIP file. In the "Environment variables" section, create 2 new environment variables. These variables will ensure that an environment for the web app service is built using Oryx during deployment (this does NOT happen by default).
 - `SCM_DO_BUILD_DURING_DEPLOYMENT` = true
@@ -274,3 +274,4 @@ Below is an example of a link to test this method when running the API locally.
 http://127.0.0.1:8000/movies/9827
 
 ```
+
